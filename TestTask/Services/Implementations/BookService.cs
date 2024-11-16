@@ -17,7 +17,7 @@ namespace TestTask.Services.Implementations
 
         }
         /// <summary>
-        /// Возвращает книгу с наибольшей стоимостью опубликованного тиража
+        /// Returns the book with the highest published circulation value
         /// </summary>
         /// <returns></returns>
         public async Task<Book> GetBook()
@@ -42,7 +42,8 @@ namespace TestTask.Services.Implementations
             }
         }
         /// <summary>
-        /// Возвращает книги, в названии которой содержится "Red" и которые опубликованы после выхода альбома "Carolus Rex" группы Sabaton
+        /// Returns books that contain “Red” in their title and were published after the release
+        /// of the album “Carolus Rex” by the band Sabaton
         /// </summary>
         /// <returns></returns>
         public async Task<List<Book>> GetBooks()

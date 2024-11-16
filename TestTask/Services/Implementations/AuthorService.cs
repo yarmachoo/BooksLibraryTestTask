@@ -17,7 +17,8 @@ namespace TestTask.Services.Implementations
 
         }
         /// <summary>
-        /// Возвращает автора, который написал книгу с самым длинным названием ( в случае если таких авторов окажется несколько, необходимо вернуть автора с наименьшим Id)
+        /// Returns the author who wrote the book with the longest title ( in case there are several such 
+        /// authors, it is necessary to return the author with the smallest Id)
         /// </summary>
         /// <returns></returns>
         public async Task<Author> GetAuthor()
@@ -45,7 +46,7 @@ namespace TestTask.Services.Implementations
             }
         }
         /// <summary>
-        /// Возвращает авторов, написавших четное количество книг, изданных после 2015 года
+        /// Returns authors who have written an even number of books published after 2015
         /// </summary>
         /// <returns></returns>
         public async Task<List<Author>> GetAuthors()
