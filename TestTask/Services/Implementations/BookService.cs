@@ -30,14 +30,9 @@ namespace TestTask.Services.Implementations
 
                 return book;
             }
-            catch (ArgumentNullException ex)
-            {
-                _logger.LogError($"---> Exception: {ex.Message}");
-                return null;
-            }
             catch (Exception ex)
             {
-                _logger.LogError($"---> Exception: {ex.Message}");
+                _logger.LogError($"{ex.Message}. Exception occured in GetBook method. ");
                 return null;
             }
         }
@@ -58,14 +53,9 @@ namespace TestTask.Services.Implementations
                     .ToListAsync();
                 return books;
             }
-            catch (ArgumentNullException ex)
-            {
-                _logger.LogError($"---> Exception: {ex.Message}");
-                return null;
-            }
             catch (Exception ex)
             {
-                _logger.LogError($"---> Exception: {ex.Message}");
+                _logger.LogError($"{ex.Message}. Exception occured in GetBooks method. ");
                 return null;
             }
         }

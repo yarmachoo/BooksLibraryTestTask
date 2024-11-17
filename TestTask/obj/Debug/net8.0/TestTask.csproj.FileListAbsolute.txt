@@ -135,3 +135,4 @@ D:\work\IFortexTest\TestTask2\TestTask\TestTask\obj\Debug\net8.0\refint\TestTask
 D:\work\IFortexTest\TestTask2\TestTask\TestTask\obj\Debug\net8.0\TestTask.pdb
 D:\work\IFortexTest\TestTask2\TestTask\TestTask\obj\Debug\net8.0\TestTask.genruntimeconfig.cache
 D:\work\IFortexTest\TestTask2\TestTask\TestTask\obj\Debug\net8.0\ref\TestTask.dll
+D:\work\IFortexTest\TestTask2\TestTask\TestTask\obj\Debug\net8.0\TestTask.sourcelink.json

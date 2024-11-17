@@ -34,14 +34,9 @@ namespace TestTask.Services.Implementations
 
                 return author;
             }
-            catch(ArgumentNullException ex)
-            {
-                _logger.LogError($"---> Exception: {ex.Message}");
-                return null;
-            }
             catch (Exception ex)
             {
-                _logger.LogError($"---> Exception: {ex.Message}");
+                _logger.LogError($"{ex.Message}. Exception occured in GetAuthor method. ");
                 return null;
             }
         }
@@ -63,14 +58,9 @@ namespace TestTask.Services.Implementations
 
                 return authors;
             }
-            catch(ArgumentNullException ex)
-            {
-                _logger.LogError($"---> Exception: {ex.Message}");
-                return null;
-            }
             catch (Exception ex)
             {
-                _logger.LogError($"---> Exception: {ex.Message}");
+                _logger.LogError($"{ex.Message}. Exception occured in GetAuthors method. ");
                 return null;
             }
         }
